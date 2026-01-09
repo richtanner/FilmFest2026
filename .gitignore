@@ -1,0 +1,27 @@
+# Blender backup files
+*.blend1
+*.blend2
+*.blend3
+*.blend4
+*.blend5
+*.blend6
+*.blend7
+*.blend8
+*.blend9
+
+# Auto-saved files (often in the system's temp directory, but good to include if saved locally)
+# Auto-saved files are named using a random number and have a blend extension.
+# These might appear in your project folder if the temp path is set to relative.
+*.[0-9][0-9][0-9][0-9].blend
+
+# Cache and temporary files
+/tmp/
+/cache/
+*.pyc
+__pycache__
+
+# System files (optional, but generally good practice for cross-platform collaboration)
+.DS_Store # macOS
+Thumbs.db # Windows
+ehthumbs.db # Windows
+*.stackdump # Linux/Windows crash dumps
